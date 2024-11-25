@@ -1,30 +1,26 @@
-import Image from "next/image";
-import DarkModeToggler from "./components/DarkModeButton";
 import Header from "./components/Navbar";
 import Hero from "./components/Hero";
 import { Story } from "./components/Story";
 import Footer from "./components/Footer";
 import { Gallery } from "./components/Gallery";
 import { DG } from "./components/DG";
+import { BrideNGroom } from "./components/BrideNGroom";
+
 
 export default function Home() {
+
   return (
     <div className="">
-      <header className="">
-        
-      </header>
+      <Header />
       <main className="">
-        <DarkModeToggler />
-        <Header />
+
         <Hero />
+        <BrideNGroom />
         <Story />
-        <DG />
         <Gallery />
-        <Footer />
+        <DG />
       </main>
-      <footer className="">
-       
-      </footer>
+      <Footer />
     </div>
   );
 }

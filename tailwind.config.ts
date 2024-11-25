@@ -18,6 +18,18 @@ export default {
         "8xl": "96rem",
         "9xl": "128rem",
       },
+      colors: {
+        salmon: '#fa8072',
+      },
+      backgroundImage: {
+        'radial-tl': 'radial-gradient(circle at top left, transparent 17px, #dc143c 17px)',
+        'radial-tr': 'radial-gradient(circle at top right, transparent 17px, #dc143c 17px)',
+        'radial-bl': 'radial-gradient(circle at bottom left, transparent 17px, #dc143c 17px)',
+        'radial-br': 'radial-gradient(circle at bottom right, transparent 17px, #dc143c 17px)',
+      },
+      boxShadow: {
+        'custom': '0 38px 14px -35px rgba(0,0,0,0.3)',
+      },
     },
   },
   // prefix: "hs-",

@@ -81,7 +81,7 @@ const Header: React.FC = () => {
               href="/#mj"
               aria-current="page"
             >
-              MJ
+              M&amp;J
             </Link>
             <Link
               className="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-200"

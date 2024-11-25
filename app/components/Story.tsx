@@ -5,10 +5,12 @@ import Bond from "../../assets/imgs/6.jpeg";
 import Proposal from "../../assets/imgs/33.jpeg";
 import PreWedding from "../../assets/imgs/34.jpeg";
 
-
 export const Story = () => {
   return (
-    <div id="story" className="relative min-h-screen flex flex-col justify-center overflow-hidden">
+    <div
+      id="story"
+      className="relative min-h-screen flex flex-col justify-center overflow-hidden"
+    >
       <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-20">
         <div className="mx-auto max-w-lg text-center flex flex-col items-center">
           <h2
@@ -32,7 +34,7 @@ export const Story = () => {
             >
               <path
                 d="M119.5 9V7.986M150 12.5H239M0 12.5H89M119.5 8.25C119.5 5.35 121.85 3 124.75 3C127.65 3 130 5.382 130 8.282C130 9.842 129.313 11.337 128.12 12.344L122.463 17.12C121.535 17.9038 120.789 18.8808 120.277 19.9828C119.765 21.0847 119.5 22.285 119.5 23.5C119.5 22.285 119.235 21.0847 118.723 19.9828C118.211 18.8808 117.465 17.9038 116.537 17.12L110.88 12.344C110.291 11.8437 109.818 11.2213 109.493 10.5199C109.168 9.8185 109 9.05489 109 8.282C109 5.382 111.35 3 114.25 3C117.15 3 119.5 5.35 119.5 8.25Z"
-                stroke="#E70B21"
+                stroke="#F46E81"
               />
             </svg>
           </span>
@@ -76,15 +78,15 @@ export const Story = () => {
                     className={`${chilanka.className} text-slate-600 mt-4 text-justify`}
                   >
                     We first met during our NYSC orientation camp. Among the sea
-                    of white shirts and khaki, she stood out. It wasn&apos;t just her
-                    radiant smile or the way she carried herself—it was
+                    of white shirts and khaki, she stood out. It wasn&apos;t
+                    just her radiant smile or the way she carried herself—it was
                     something deeper, an energy I couldn&apos;t ignore. We were
                     strangers at first, crossing paths during morning drills,
                     sitting near each other during lectures, and even sharing
-                    casual conversations at the camp&apos;s mammy market. Slowly,
-                    those small interactions grew into something more. By the
-                    end of the camp, I knew she was someone special, and I
-                    wanted to know her better.
+                    casual conversations at the camp&apos;s mammy market.
+                    Slowly, those small interactions grew into something more.
+                    By the end of the camp, I knew she was someone special, and
+                    I wanted to know her better.
                   </p>
                 </div>
               </div>
@@ -106,7 +108,7 @@ export const Story = () => {
                 </div>
                 <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
                   <div className="mb-6">
-                  <Image
+                    <Image
                       className="rounded"
                       src={Bond}
                       width={400}
@@ -129,9 +131,9 @@ export const Story = () => {
                     frequent, and our connection grew stronger with each passing
                     day. We spent our weekends exploring new places, sharing
                     ideas, and dreaming about the future. Despite the challenges
-                    of service year, we became each other&apos;s biggest supporters.
-                    She inspired me with her creativity and passion, and I like
-                    to believe I did the same for her.
+                    of service year, we became each other&apos;s biggest
+                    supporters. She inspired me with her creativity and passion,
+                    and I like to believe I did the same for her.
                   </p>
                 </div>
               </div>
@@ -153,7 +155,7 @@ export const Story = () => {
                 </div>
                 <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
                   <div className="mb-6">
-                  <Image
+                    <Image
                       className="rounded"
                       src={Proposal}
                       width={400}
@@ -197,7 +199,7 @@ export const Story = () => {
                 </div>
                 <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
                   <div className="mb-6">
-                  <Image
+                    <Image
                       className="rounded"
                       src={PreWedding}
                       width={400}
@@ -216,12 +218,13 @@ export const Story = () => {
                     className={`${chilanka.className} text-slate-600 mt-4 text-justify`}
                   >
                     Now, we are preparing for the biggest day of our lives—our
-                    wedding day. It&apos;s a celebration of everything we&apos;ve shared
-                    and the future we&apos;re building together. From meeting as
-                    strangers in camp to becoming partners for life, this
-                    journey has been nothing short of magical. We can&apos;t wait to
-                    continue this adventure, hand in hand, and create a lifetime
-                    of beautiful memories together.
+                    wedding day. It&apos;s a celebration of everything
+                    we&apos;ve shared and the future we&apos;re building
+                    together. From meeting as strangers in camp to becoming
+                    partners for life, this journey has been nothing short of
+                    magical. We can&apos;t wait to continue this adventure, hand
+                    in hand, and create a lifetime of beautiful memories
+                    together.
                   </p>
                 </div>
               </div>

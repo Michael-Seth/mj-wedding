@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { chilanka, oleo } from "../fonts";
 import a from "../../assets/imgs/24.jpeg";

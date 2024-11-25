@@ -1,7 +1,11 @@
+"use client"
+
 import React from "react";
-import { Donate } from "./Donate";
-import { Gift } from "./Gift";
 import { chilanka, oleo } from "../fonts";
+import dynamic from "next/dynamic";
+
+const Donate = dynamic(() => import("./Donate"), { ssr: false });
+const Gift = dynamic(() => import("./Gift"), { ssr: false });
 
 export const DG = () => {
   return (

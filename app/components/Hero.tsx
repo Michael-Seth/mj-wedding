@@ -1,3 +1,4 @@
+"use client"
 import { chilanka, oleo } from "../fonts";
 import Image from "next/image";
 import HeroImg from "../../assets/imgs/36.jpeg";

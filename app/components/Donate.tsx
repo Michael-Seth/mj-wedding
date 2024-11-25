@@ -1,9 +1,10 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import React, { useState } from "react";
-import FormBtn from "./FormButton";
+const FormBtn = dynamic(() => import("./FormButton"), { ssr: false });
 
-export const Donate = () => {
+const Donate = () => {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [amount, setAmount] = useState(0);
@@ -170,3 +171,5 @@ export const Donate = () => {
     </div>
   );
 };
+
+export default Donate;

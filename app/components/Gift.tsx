@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-export const Gift = () => {
+const Gift = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const rowsPerPage = 3;
 
@@ -237,3 +237,4 @@ export const Gift = () => {
     </>
   );
 };
+export default Gift;

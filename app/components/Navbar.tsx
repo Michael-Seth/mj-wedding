@@ -3,8 +3,11 @@
 import Image from "next/image";
 import logoWhite from "../../assets/imgs/MJ Logog white.png";
 import logoBlack from "../../assets/imgs/MJ Logog Black.png";
-// import DarkModeToggler from "./DarkModeButton";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+
+const DarkModeToggler = dynamic(() => import("./DarkModeButton"), { ssr: false });
+
 
 const Header: React.FC = () => {
 
@@ -113,7 +116,7 @@ const Header: React.FC = () => {
         </div>
       </nav>
       <div className="rounded-full dark:bg-neutral-900 dark:border-neutral-700">
-        {/* <DarkModeToggler /> */}
+        <DarkModeToggler />
       </div>
     </header>
   );

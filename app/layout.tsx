@@ -8,7 +8,7 @@ const PrelineScript = dynamic(() => import("../app/components/PrelineScript"), {
 
 export const metadata: Metadata = {
   title: "Michael & Joy - 2024",
-  description: "Wedding ",
+  description: "A celebration of love, memories, and a new beginning. Join us as we embark on our journey together.",
 };
 
 export default function RootLayout({

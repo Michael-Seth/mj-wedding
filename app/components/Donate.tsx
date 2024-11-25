@@ -20,7 +20,7 @@ const Donate = () => {
     <div className="relative">
       <div className="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-10 dark:border-neutral-700">
         <h2 className="text-xl font-semibold text-gray-800 dark:text-neutral-200">
-        Send Your Love and Support
+          Send Your Love and Support
         </h2>
 
         <form>
@@ -38,7 +38,7 @@ const Donate = () => {
                 id="fullName"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
-                className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-custom-pink focus:ring-custom-pink disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
               />
             </div>
             <div>
@@ -55,7 +55,7 @@ const Donate = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 autoComplete="email"
-                className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-custom-pink focus:ring-custom-pink disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
               />
             </div>
 
@@ -67,10 +67,10 @@ const Donate = () => {
                 >
                   Are you coming?
                 </label>
-                <select className="py-3 px-4 pe-9 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600">
+                <select className="py-3 px-4 pe-9 block w-full border-gray-200 rounded-lg text-sm focus:border-custom-pink focus:ring-custom-pink disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600">
                   <option defaultValue="">Select</option>
-                  <option>Yes</option>
-                  <option>No</option>
+                  <option>Yes, I'll be there</option>
+                  <option>No, I'm sorry</option>
                 </select>
               </div>
 
@@ -107,7 +107,7 @@ const Donate = () => {
                 <select
                   id="amount"
                   onChange={handleAmountChange}
-                  className="py-3 px-4 pe-9 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                  className="py-3 px-4 pe-9 block w-full border-gray-200 rounded-lg text-sm focus:border-custom-pink focus:ring-custom-pink disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
                 >
                   <option defaultValue="Select an amount">₦20,000</option>
                   <option>₦30,000</option>
@@ -137,7 +137,7 @@ const Donate = () => {
                 id="hs-about-hire-us-1"
                 name="hs-about-hire-us-1"
                 rows={4}
-                className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-custom-pink focus:ring-custom-pink disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
               ></textarea>
             </div>
           </div>
@@ -145,9 +145,9 @@ const Donate = () => {
         <div className="w-full text-slate-600 h-1 my-4 border border-b-1"></div>
         <div className="mt-3 flex">
           <div className="flex items-center justify-between text-gray-600 text-sm font-semibold w-full">
-          <span>Ehiedu Joy </span>
-          <span>UBA </span>
-          <span>2266146117 </span>
+            <span>Ehiedu Joy </span>
+            <span>UBA </span>
+            <span>2266146117 </span>
           </div>
         </div>
 
@@ -159,7 +159,6 @@ const Donate = () => {
             email={email}
             fullName={fullName}
           />
-          
         </div>
 
         <div className="mt-3 text-center">

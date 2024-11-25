@@ -19,16 +19,21 @@ export default {
         "9xl": "128rem",
       },
       colors: {
-        salmon: '#fa8072',
+        salmon: "#fa8072",
+        "custom-pink": "#F46E81",
       },
       backgroundImage: {
-        'radial-tl': 'radial-gradient(circle at top left, transparent 17px, #dc143c 17px)',
-        'radial-tr': 'radial-gradient(circle at top right, transparent 17px, #dc143c 17px)',
-        'radial-bl': 'radial-gradient(circle at bottom left, transparent 17px, #dc143c 17px)',
-        'radial-br': 'radial-gradient(circle at bottom right, transparent 17px, #dc143c 17px)',
+        "radial-tl":
+          "radial-gradient(circle at top left, transparent 17px, #dc143c 17px)",
+        "radial-tr":
+          "radial-gradient(circle at top right, transparent 17px, #dc143c 17px)",
+        "radial-bl":
+          "radial-gradient(circle at bottom left, transparent 17px, #dc143c 17px)",
+        "radial-br":
+          "radial-gradient(circle at bottom right, transparent 17px, #dc143c 17px)",
       },
       boxShadow: {
-        'custom': '0 38px 14px -35px rgba(0,0,0,0.3)',
+        custom: "0 38px 14px -35px rgba(0,0,0,0.3)",
       },
     },
   },

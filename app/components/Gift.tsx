@@ -81,7 +81,7 @@ export const Gift = () => {
 
   return (
     <>
-      <div className="max-w-[85rem] px-4 py-10 sm:py-0 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className=" w-full md:w-auto px-4 py-10 sm:py-0 sm:px-6 mx-auto">
         <div className="flex flex-col">
           <div className="-m-1.5 overflow-x-auto">
             <div className="p-1.5 min-w-full inline-block align-middle">

@@ -6,7 +6,10 @@ import { chilanka, oleo } from "../fonts";
 export const DG = () => {
   return (
     <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mt-8 mx-auto">
-      <div id="support" className="mx-auto max-w-lg mb-8 text-center flex flex-col items-center">
+      <div
+        id="support"
+        className="mx-auto max-w-lg mb-8 text-center flex flex-col items-center"
+      >
         <h2
           className={`${oleo.className} text-3xl sm:text-5xl font-bold text-gray-800 dark:text-neutral-200`}
         >
@@ -36,14 +39,10 @@ export const DG = () => {
       </div>
       <div className="bg-white dark:bg-gray-900">
         <div className="container py-10 mx-auto">
-          <div className="grid grid-cols-1 gap-8 md:gap-4 md:grid-cols-2">
-            <div>
-              <Donate />
-            </div>
+          <div className="grid grid-cols-1 gap-8 md:gap-2 md:grid-cols-2">
+            <Donate />
 
-            <div>
-              <Gift />
-            </div>
+            <Gift />
           </div>
         </div>
       </div>

@@ -7,21 +7,21 @@ import Link from "next/link";
 const Header: React.FC = () => {
 
   return (
-    <header id="about" className="sticky top-0 inset-x-0 flex flex-wrap md:justify-center items-center md:flex-nowrap z-50 w-full text-sm">
+    <header className="sticky top-0 inset-x-0 flex flex-wrap md:justify-center items-center md:flex-nowrap z-50 w-full text-sm">
       <nav className="mt-4 relative max-w-2xl w-full bg-white border border-gray-200 rounded-[2rem] mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-4 md:mx-auto dark:bg-neutral-900 dark:border-neutral-700">
         <div className="px-4 md:px-0 flex justify-between items-center">
           <div>
             <Image
               src={logoBlack}
-              width={140}
+              width={90}
               alt="Michael Joy Logo"
-              className="block dark:hidden"
+              className="ml-3 block dark:hidden"
             />
             <Image
               src={logoWhite}
-              width={140}
+              width={90}
               alt="Michael Joy Logo"
-              className="hidden dark:block"
+              className="ml-3 hidden dark:block"
             />
           </div>
 

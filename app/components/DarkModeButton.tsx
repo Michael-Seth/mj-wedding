@@ -1,8 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import useDarkMode from "./hooks/UseDarkMode"
-// import dynamic from "next/dynamic";
-// const useDarkMode = dynamic(() => import("./hooks/useDarkMode"), { ssr: false });
+import useDarkMode from "./hooks/useDarkMode";
 
 function DarkModeToggler() {
   const { theme, toggleTheme } = useDarkMode();
